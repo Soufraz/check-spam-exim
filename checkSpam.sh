@@ -17,3 +17,5 @@ else
          -au 'emailfrom@yoursite.com' -ap 'from-email-password' --header "Subject: JUST A TEST YET!!" -body "All beautiful!"
         #echo $ACCOUNT
 fi
+
+#iptables -I INPUT -s 173.200.37.114 -j DROP - After, add tho rule to blok ip with iptables
