@@ -2,7 +2,7 @@
 <p>A simple script that will notify you via email and through the iptables block ip and account responsible for sending spam. This script works in servers running the MTA (message transfer agent) exim.</p>
 
 <h3>How to use</h3>
-<p>Just add the cron tasks in your server, the following command: <pre><code>/bin/bash /root/scripts/checkSpam.sh</code></pre><br>
+<p>Copy all files to /root/scripts/ and add to the cron tasks in your server, the following command: <pre><code>/bin/bash /root/scripts/checkSpam.sh</code></pre><br>
 The time will run can be what you want.</p>
 
 <h3>Authors and Contributors</h3>
